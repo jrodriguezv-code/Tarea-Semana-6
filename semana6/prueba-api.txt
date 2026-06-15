@@ -1,0 +1,7 @@
+Al enviar una petición POST a http://localhost:3000/registro con el JSON de prueba, el middleware 'express.json()' procesa el cuerpo de la petición. El servidor lee las variables a través de 'req.body' y retorna exitosamente el siguiente objeto estructurado en formato JSON:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
